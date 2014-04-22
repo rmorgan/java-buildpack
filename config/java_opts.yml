@@ -1,4 +1,3 @@
-# Encoding: utf-8
 # Cloud Foundry Java Buildpack
 # Copyright (c) 2014 the original author or authors.
 #
@@ -14,14 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-class String
-  def to_b
-    downcase == 'true'
-  end
-end
-
-class NilClass
-  def to_b
-    false
-  end
-end
+# JAVA_OPTS configuration
+---
+from_environment: true
+# java_opts:

@@ -32,10 +32,12 @@ To learn how to configure various properties of the buildpack, follow the "Confi
 * [Design](docs/design.md)
 * [Security](docs/security.md)
 * Standard Containers
+	* [Dist ZIP](docs/container-dist_zip.md)
 	* [Groovy](docs/container-groovy.md) ([Configuration](docs/container-groovy.md#configuration))
 	* [Java Main](docs/container-java_main.md) ([Configuration](docs/container-java_main.md#configuration))
 	* [Play Framework](docs/container-play_framework.md)
 	* [Ratpack](docs/container-ratpack.md)
+	* [Spring Boot](docs/container-spring_boot.md)
 	* [Spring Boot CLI](docs/container-spring_boot_cli.md) ([Configuration](docs/container-spring_boot_cli.md#configuration))
 	* [Tomcat](docs/container-tomcat.md) ([Configuration](docs/container-tomcat.md#configuration))
 * Standard Frameworks
